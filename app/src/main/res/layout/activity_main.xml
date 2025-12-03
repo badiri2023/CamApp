@@ -4,21 +4,30 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    android:padding="16dp">
+    android:padding="20dp">
 
     <ImageView
         android:id="@+id/ivFoto"
-        android:layout_width="347dp"
-        android:layout_height="567dp"
-        android:background="#E0E0E0"
-        android:contentDescription="Imagen seleccionada"
-        android:scaleType="fitCenter" />
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:background="#EEEEEE"
+        android:scaleType="fitCenter"
+        android:contentDescription="Foto mostrada" />
 
+    <!-- Botó per obrir Galeria -->
     <Button
         android:id="@+id/btnGaleria"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:text="Abrir Galería" />
+        android:text="Obrir Galeria" />
+
+    <!-- NOU BOTÓ: Càmera Thumbnail -->
+    <Button
+        android:id="@+id/btnCamera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Fer Foto (Thumbnail)" />
 
 </LinearLayout>
